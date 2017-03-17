@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Research Project_Spring 2017/simulation/qsim
+vARM_Processor
+!s110 1484678894
+!i10b 1
+!s100 ZTD<NKj<WFke_RH=:6LYZ3
+IX_cWSNn1W0?3dJ3X;M@c=0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1484678894
+8ARM_Processor.vo
+FARM_Processor.vo
+L0 32
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1484678894.000000
+!s107 ARM_Processor.vo|
+!s90 -work|work|ARM_Processor.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@r@m_@processor
+vARM_Processor_vlg_vec_tst
+!s110 1484678895
+!i10b 1
+!s100 8LQQS]C@ifPbULSM8J7c>2
+ImF?VFoI0TGNMPbizBC1;e2
+R1
+R0
+w1484678893
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
+n@a@r@m_@processor_vlg_vec_tst

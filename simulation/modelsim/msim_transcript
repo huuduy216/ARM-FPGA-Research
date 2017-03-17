@@ -1,0 +1,287 @@
+# Reading C:/intelFPGA/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ARM_Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/constant.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:40 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/constant.v 
+# End time: 15:55:40 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:40 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:55:40 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/registers.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:40 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/registers.v 
+# -- Compiling module registers
+# 
+# Top level modules:
+# 	registers
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/instMem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/instMem.v 
+# -- Compiling module instMem
+# 
+# Top level modules:
+# 	instMem
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Mar 16,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Research Project_Spring 2017" D:/Research Project_Spring 2017/memory.v 
+# -- Compiling module memory
+# ** Warning: D:/Research Project_Spring 2017/memory.v(18): (vlog-2182) 'mem_array' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	memory
+# End time: 15:55:41 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/cpu_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:13 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/cpu_test.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 15:56:13 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:18 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:56:19 on Mar 16,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/constant.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:20 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/constant.v 
+# End time: 15:56:20 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:20 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:56:20 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/cpu_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:21 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/cpu_test.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 15:56:21 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:22 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 15:56:22 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/instMem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:23 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/instMem.v 
+# -- Compiling module instMem
+# 
+# Top level modules:
+# 	instMem
+# End time: 15:56:23 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:26 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/memory.v 
+# -- Compiling module memory
+# ** Warning: D:/Research Project_Spring 2017/memory.v(18): (vlog-2182) 'mem_array' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	memory
+# End time: 15:56:26 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:26 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 15:56:27 on Mar 16,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:28 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 15:56:28 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/Research Project_Spring 2017/registers.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:56:29 on Mar 16,2017
+# vlog -reportprogress 300 -work work D:/Research Project_Spring 2017/registers.v 
+# -- Compiling module registers
+# 
+# Top level modules:
+# 	registers
+# End time: 15:56:29 on Mar 16,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cpu
+# vsim work.cpu 
+# Start time: 15:56:33 on Mar 16,2017
+# Loading work.cpu
+# Loading work.pc
+# Loading work.instMem
+# Loading work.decoder
+# Loading work.controller
+# Loading work.mux
+# Loading work.registers
+# Loading work.alu
+# Loading work.memory
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (10) does not match connection size (32) for port 'segA'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (5) does not match connection size (8) for port 'segB'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (10) does not match connection size (32) for port 'segC'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (1) does not match connection size (11) for port 'reg2Loc'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (1) does not match connection size (4) for port 'branch'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (4) does not match connection size (1) for port 'aluOp'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (11) does not match connection size (1) for port 'opCode'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (8) for port 'readRegister1'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (32) for port 'readRegister2'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'regWrite'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (1) for port 'writeRegister'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+vsim rtl_work.cpu
+# End time: 15:56:55 on Mar 16,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 11
+# vsim rtl_work.cpu 
+# Start time: 15:56:55 on Mar 16,2017
+# Loading rtl_work.cpu
+# Loading rtl_work.pc
+# Loading rtl_work.instMem
+# Loading rtl_work.decoder
+# Loading rtl_work.controller
+# Loading rtl_work.mux
+# Loading rtl_work.registers
+# Loading rtl_work.alu
+# Loading rtl_work.memory
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (10) does not match connection size (32) for port 'segA'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (5) does not match connection size (8) for port 'segB'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(31): [PCDPC] - Port size (10) does not match connection size (32) for port 'segC'. The port definition is at: D:/Research Project_Spring 2017/decoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/decode1 File: D:/Research Project_Spring 2017/decoder.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (1) does not match connection size (11) for port 'reg2Loc'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (1) does not match connection size (4) for port 'branch'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (4) does not match connection size (1) for port 'aluOp'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(32): [PCDPC] - Port size (11) does not match connection size (1) for port 'opCode'. The port definition is at: D:/Research Project_Spring 2017/controller.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/control1 File: D:/Research Project_Spring 2017/controller.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (8) for port 'readRegister1'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (32) for port 'readRegister2'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'regWrite'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# ** Warning: (vsim-3015) D:/Research Project_Spring 2017/cpu_test.v(37): [PCDPC] - Port size (5) does not match connection size (1) for port 'writeRegister'. The port definition is at: D:/Research Project_Spring 2017/registers.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/reg1 File: D:/Research Project_Spring 2017/registers.v
+# Load canceled
+add wave -position insertpoint **
+run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# End time: 22:15:05 on Mar 16,2017, Elapsed time: 6:18:10
+# Errors: 4, Warnings: 13

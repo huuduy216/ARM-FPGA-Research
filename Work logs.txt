@@ -1,0 +1,12 @@
+Work logs
+
+Jan. 16, 2017
+1pm - 4:30pm
+looking at previous group's code to relearn verilog and see which part can be salvage
+experiment some developing using Quartus IDE
+read about ARM instruction opcode
+
+Jan. 17, 2017
+1pm - 2:45pm
+Try waveform testing in Quartus
+Write the registers in verilog

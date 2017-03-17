@@ -1,0 +1,23 @@
+module registers(readRegister1,readRegister2,regWrite,writeAddress,writeData,readData1,readData2);
+	parameter size = 32;//processor bit size
+	
+	input [size-1:0]readRegister1;
+	input [size-1:0]readRegister2;
+	input regWrite;
+	input [size-1:0]writeRegister;
+	input [size-1:0]writeData;
+	output [size-1:0]readData1;
+	output [size-1:0]readData2;
+	reg [size-1:0]readData1;
+	reg [size-1:0]readData2;
+	reg [size-1:0]temp[size-1:0];
+		
+	always @ * 
+	begin
+		temp[n-1] = 32'b0;//set register to 0, still unsure on how to assign this
+		readData1 = temp[readRegister1];
+		readData2 = temp[readRegister2];
+		if (regWrite == 1)
+			register[writeRegister] = writeData;
+	end
+endmodule

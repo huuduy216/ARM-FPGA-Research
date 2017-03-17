@@ -1,0 +1,18 @@
+`include "constant.v"
+
+module instMem(input [31:0]progCount, output reg [31:0]inst);
+	
+	input [31:0]progCount;
+	output reg [31:0]inst;
+	reg [31:0]instructions[`NUMBER_OF_INSTRUCTION-1:0];
+
+	initial begin
+	instructions[0] = 32'b10010001000000011011111111100001; //addi X1, X31, 1
+	instructions[1] = 32'b10010001000000000101101111100010; //addi X2, X31, 0
+	
+	end
+	always @ * begin
+	#1 inst = instructions[progCount + 1];
+	
+	end
+endmodule

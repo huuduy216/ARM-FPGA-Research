@@ -1,0 +1,200 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Research Project_Spring 2017/simulation/modelsim
+valu
+!s110 1489694179
+!i10b 1
+!s100 01SNZaPd3o>gA:Z6M]Y?F3
+I@lT?:9^8@_QZ^z>V0n7ET2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1485357702
+8D:/Research Project_Spring 2017/alu.v
+FD:/Research Project_Spring 2017/alu.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1489694178.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/alu.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/alu.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcontroller
+!s110 1489694180
+!i10b 1
+!s100 >aI^]W4YXUBH9cN=D<@HW0
+IdcK7n`W_i2cM?GPQAKX0C2
+R1
+R0
+w1488468955
+8D:/Research Project_Spring 2017/controller.v
+FD:/Research Project_Spring 2017/controller.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1489694180.000000
+!s107 D:/Research Project_Spring 2017/controller.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/controller.v|
+!i113 1
+R3
+R4
+vcpu
+!s110 1489694181
+!i10b 1
+!s100 lcSC3XOcD?V;GoAOd6n>Y3
+IVJ]F1gKADIi757hd0jgM?0
+R1
+R0
+w1489693977
+8D:/Research Project_Spring 2017/cpu_test.v
+FD:/Research Project_Spring 2017/cpu_test.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1489694181.000000
+!s107 D:/Research Project_Spring 2017/cpu_test.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/cpu_test.v|
+!i113 1
+R3
+R4
+vdecoder
+!s110 1489694182
+!i10b 1
+!s100 _YFaj=in>IAMOcaAjD@ZP1
+I:9[TB]4DGRiU;0b:O<6WM0
+R1
+R0
+w1487779809
+8D:/Research Project_Spring 2017/decoder.v
+FD:/Research Project_Spring 2017/decoder.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1489694182.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/decoder.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/decoder.v|
+!i113 1
+R3
+R4
+vinstMem
+!s110 1489694183
+!i10b 1
+!s100 <hK21f=kUAo4h=@MAR@]o1
+Ig8DN0;^8nD^@C?S=3`iR<2
+R1
+R0
+w1489440336
+8D:/Research Project_Spring 2017/instMem.v
+FD:/Research Project_Spring 2017/instMem.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1489694183.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/instMem.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/instMem.v|
+!i113 1
+R3
+R4
+ninst@mem
+vmemory
+!s110 1489694186
+!i10b 1
+!s100 5Z^Ud1_5IK;_>8=]]hNo;2
+I4f`NAV?66PnX9X5OT^G[Q0
+R1
+R0
+w1489439573
+8D:/Research Project_Spring 2017/memory.v
+FD:/Research Project_Spring 2017/memory.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z5 !s108 1489694186.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/memory.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/memory.v|
+!i113 1
+R3
+R4
+vmux
+!s110 1489694187
+!i10b 1
+!s100 4Hhj[XgS7Gz7=Rg80Eme51
+I]WF=ZLCJASgXAHPWmI;R<2
+R1
+R0
+w1485357709
+8D:/Research Project_Spring 2017/mux.v
+FD:/Research Project_Spring 2017/mux.v
+L0 3
+R2
+r1
+!s85 0
+31
+R5
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/mux.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/mux.v|
+!i113 1
+R3
+R4
+vpc
+!s110 1489694188
+!i10b 1
+!s100 z0GnW2cR^`W?;^cS>hPHN2
+I?PPOcf2OaYcm_@odd=XaD3
+R1
+R0
+w1489691679
+8D:/Research Project_Spring 2017/pc.v
+FD:/Research Project_Spring 2017/pc.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1489694188.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/pc.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/pc.v|
+!i113 1
+R3
+R4
+vregisters
+!s110 1489694189
+!i10b 1
+!s100 VN75OEIHY<KWSUQbGF2oV3
+IG5fQmDn`i:GCFLTi>cl8Q3
+R1
+R0
+w1489440316
+8D:/Research Project_Spring 2017/registers.v
+FD:/Research Project_Spring 2017/registers.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1489694189.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/registers.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/registers.v|
+!i113 1
+R3
+R4

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/Research Project_Spring 2017/notGate.v
+source_file = 1, D:/Research Project_Spring 2017/ARM_Processor.bdf
+source_file = 1, D:/Research Project_Spring 2017/Waveform.vwf
+source_file = 1, ARM_Processor.vwf
+source_file = 1, test.vwf
+source_file = 1, D:/Research Project_Spring 2017/db/ARM_Processor.cbx.xml
+design_name = ARM_Processor
+instance = comp, \out~output , out~output, ARM_Processor, 1
+instance = comp, \in~input , in~input, ARM_Processor, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, ARM_Processor, 1

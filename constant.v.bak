@@ -1,0 +1,3 @@
+'define SIZE 32;//processor bit SIZE
+module constant;
+endmodule;

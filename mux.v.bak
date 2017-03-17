@@ -1,0 +1,14 @@
+module(dataA,dataB,select,dataOut);
+	input [`SIZE -1:0] dataA;
+	input [`SIZE -1:0] dataB;
+	intput select;
+	output reg input [`SIZE -1:0] dataOut;
+	
+	always @ *
+	begin
+		if (select == 0)
+			dataOut = dataA;
+		else
+			dataOut = dataB;
+	end
+endmodule
