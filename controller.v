@@ -1,4 +1,4 @@
-module controller(reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,regWrite,opCode);
+module controller(opCode,reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,regWrite);
 	input [10:0] opCode;
 	output reg reg2Loc;
 	output reg branch;

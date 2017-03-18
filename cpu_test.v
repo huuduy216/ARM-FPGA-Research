@@ -29,7 +29,7 @@ module cpu();
 	pc pc1(nextInst,clock,next, currentInst, pcNext,led_test,led_test2);
 	instMem instMem1(currentInst, inst);
 	decoder decode1(inst, opcode, segA, segB, segC, branchTarget);
-	controller control1(opcode, aluOp, reg2Loc, branch, memRead, memToReg, memWrite, aluSrc, regWrite);
+	controller control1(opcode, reg2Loc, branch, memRead, memToReg,aluOp, memWrite, aluSrc, regWrite);
 	mux reg2Loc1(segC, segA, reg2Loc, regRead2);
 	mux branch1(pcNext, aluOut, branch, nextInst);
 	mux memToReg1(aluOut, memOut, memToReg, regWriteData);
@@ -41,11 +41,11 @@ module cpu();
 	initial
 	begin
 		next =1;
-		#20;
+		#100;
 		next = 0;
-		#20;
+		#100;
 		next = 1;
-		#20;
+		#100;
 		next = 0;
 	end
 endmodule

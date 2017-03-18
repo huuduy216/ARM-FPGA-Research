@@ -441,17 +441,6 @@ dataOut[31] <= dataOut.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ARM_Processor|controller:inst11
-reg2Loc <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
-branch <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
-memRead <= Equal10.DB_MAX_OUTPUT_PORT_TYPE
-memToReg <= Equal10.DB_MAX_OUTPUT_PORT_TYPE
-aluOp[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
-aluOp[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
-aluOp[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-aluOp[3] <= aluOp.DB_MAX_OUTPUT_PORT_TYPE
-memWrite <= Equal9.DB_MAX_OUTPUT_PORT_TYPE
-aluSrc <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
-regWrite <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
 opCode[0] => Equal0.IN21
 opCode[0] => Equal1.IN21
 opCode[0] => Equal2.IN21
@@ -573,6 +562,17 @@ opCode[10] => Equal7.IN11
 opCode[10] => Equal8.IN11
 opCode[10] => Equal9.IN11
 opCode[10] => Equal10.IN11
+reg2Loc <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+branch <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+memRead <= Equal10.DB_MAX_OUTPUT_PORT_TYPE
+memToReg <= Equal10.DB_MAX_OUTPUT_PORT_TYPE
+aluOp[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+aluOp[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+aluOp[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+aluOp[3] <= aluOp.DB_MAX_OUTPUT_PORT_TYPE
+memWrite <= Equal9.DB_MAX_OUTPUT_PORT_TYPE
+aluSrc <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+regWrite <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ARM_Processor|decoder:inst4

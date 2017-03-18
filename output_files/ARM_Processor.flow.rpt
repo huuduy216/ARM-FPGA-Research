@@ -1,5 +1,5 @@
 Flow report for ARM_Processor
-Thu Mar 16 15:54:15 2017
+Sat Mar 18 08:34:57 2017
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -38,29 +38,24 @@ agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Mar 16 15:54:15 2017       ;
-; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
-; Revision Name                   ; ARM_Processor                               ;
-; Top-level Entity Name           ; ARM_Processor                               ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CEFA7F31I7                                 ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 25 / 56,480 ( < 1 % )                       ;
-; Total registers                 ; 38                                          ;
-; Total pins                      ; 12 / 480 ( 3 % )                            ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0 / 7,024,640 ( 0 % )                       ;
-; Total DSP Blocks                ; 0 / 156 ( 0 % )                             ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0 / 7 ( 0 % )                               ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
-+---------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------+
+; Flow Summary                                                              ;
++-----------------------------+---------------------------------------------+
+; Flow Status                 ; Flow Failed - Sat Mar 18 08:34:57 2017      ;
+; Quartus Prime Version       ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name               ; ARM_Processor                               ;
+; Top-level Entity Name       ; ARM_Processor                               ;
+; Family                      ; Cyclone V                                   ;
+; Device                      ; 5CEFA7F31I7                                 ;
+; Timing Models               ; Final                                       ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,7 +63,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/16/2017 15:52:59 ;
+; Start date & time ; 03/18/2017 08:34:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ARM_Processor       ;
 +-------------------+---------------------+
@@ -79,7 +74,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 164143905090.148969397910088           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 164143905090.148984048911572           ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -95,41 +90,29 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:14     ; 1.0                     ; 709 MB              ; 00:00:29                           ;
-; Fitter                    ; 00:00:37     ; 1.0                     ; 2458 MB             ; 00:01:07                           ;
-; Assembler                 ; 00:00:08     ; 1.0                     ; 688 MB              ; 00:00:08                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.1                     ; 993 MB              ; 00:00:06                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 594 MB              ; 00:00:01                           ;
-; Total                     ; 00:01:06     ; --                      ; --                  ; 00:01:51                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 620 MB              ; 00:00:22                           ;
+; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:22                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                          ;
-+---------------------------+------------------+-------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
-+---------------------------+------------------+-------------+------------+----------------+
-; Analysis & Synthesis      ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
-; Fitter                    ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
-; Assembler                 ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
-; TimeQuest Timing Analyzer ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer        ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
-+---------------------------+------------------+-------------+------------+----------------+
++-------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                     ;
++----------------------+------------------+-------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
++----------------------+------------------+-------------+------------+----------------+
+; Analysis & Synthesis ; WITR90GMEWT      ; Windows 8.1 ; 6.3        ; x86_64         ;
++----------------------+------------------+-------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off ARM_Processor -c ARM_Processor
-quartus_fit --read_settings_files=off --write_settings_files=off ARM_Processor -c ARM_Processor
-quartus_asm --read_settings_files=off --write_settings_files=off ARM_Processor -c ARM_Processor
-quartus_sta ARM_Processor -c ARM_Processor
-quartus_eda --read_settings_files=off --write_settings_files=off ARM_Processor -c ARM_Processor
 
 
 
