@@ -9,7 +9,7 @@ module controller(opCode,reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,r
 	output reg aluSrc;
 	output reg regWrite;
 	
-	always @ *
+	always @ (opCode)
 	case(opCode)
 		6'b000101:
 			begin 	

@@ -9,219 +9,213 @@ z2
 cModel Technology
 Z0 dD:/Research Project_Spring 2017/simulation/modelsim
 valu
-Z1 !s110 1489838569
+!s110 1490726388
 !i10b 1
 !s100 01SNZaPd3o>gA:Z6M]Y?F3
-I__ceN9mjTS?W1LVL9L89`0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+I@lT?:9^8@_QZ^z>V0n7ET2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1485357702
+w1490114987
 8D:/Research Project_Spring 2017/alu.v
 FD:/Research Project_Spring 2017/alu.v
 L0 3
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1489838569.000000
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/alu.v|
+!s108 1490726388.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/alu.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/alu.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+D:/Research Project_Spring 2017}
-Z7 tCvgOpt 0
-valu_test
-!s110 1489840830
-!i10b 1
-!s100 =2egSf?DlJRh4WlgGaZ8K2
-IT8]9dj3BElJkZoZd<]kD51
-R2
-R0
-w1489840826
-8D:/Research Project_Spring 2017/alu_test.v
-FD:/Research Project_Spring 2017/alu_test.v
-L0 3
-R3
-r1
-!s85 0
-31
-!s108 1489840830.000000
-!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/alu_test.v|
-!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/alu_test.v|
-!i113 1
-Z8 o-work work
-R7
+Z3 o-work work
+Z4 tCvgOpt 0
 vcontroller
-!s110 1489838600
+!s110 1490726393
 !i10b 1
-!s100 cnSD@64d@YJz=U]WFmVA<1
-Ig:>c[F1?Ngg29z@o4C48j0
-R2
+!s100 [NkFHLX<hZBNfzHFo0_aV2
+ImUJKa`EUo_KXY5ok>KK^^1
+R1
 R0
-w1489837869
+w1490143421
 8D:/Research Project_Spring 2017/controller.v
 FD:/Research Project_Spring 2017/controller.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1489838600.000000
+!s108 1490726393.000000
 !s107 D:/Research Project_Spring 2017/controller.v|
 !s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/controller.v|
 !i113 1
-R8
-R7
+R3
+R4
 vcpu
-!s110 1489839897
+!s110 1490727704
 !i10b 1
-!s100 ncGRCd5[l=chd`?OBlVPz3
-IEL:6I=XaI?Mk1NN[Cn>IT0
-R2
+!s100 c8[K9ic:=7Iog7So0z0VC1
+ILdIJWcIQEB4ZZM;?Y=a;z3
+R1
 R0
-w1489839891
+w1490727694
+8D:/Research Project_Spring 2017/cpu.v
+FD:/Research Project_Spring 2017/cpu.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1490727704.000000
+!s107 D:/Research Project_Spring 2017/cpu.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/cpu.v|
+!i113 1
+R3
+R4
+vcpu_test
+!s110 1490728202
+!i10b 1
+!s100 :7U<3e2;o;FaRSQ0aBVl63
+Ie@U_6bU3ezOYP1Ini]SdN3
+R1
+R0
+w1490728162
 8D:/Research Project_Spring 2017/cpu_test.v
 FD:/Research Project_Spring 2017/cpu_test.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1489839897.000000
+!s108 1490728202.000000
 !s107 D:/Research Project_Spring 2017/cpu_test.v|
 !s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/cpu_test.v|
 !i113 1
-R8
-R7
+R3
+R4
 vdecoder
-!s110 1489838602
+!s110 1490726398
 !i10b 1
-!s100 _YFaj=in>IAMOcaAjD@ZP1
-I:9[TB]4DGRiU;0b:O<6WM0
-R2
+!s100 XI<Z47DX[H8?]eQReHhP;2
+I:ij7iOU3Phzb1nm>Zg[dn2
+R1
 R0
-w1487779809
+w1490726206
 8D:/Research Project_Spring 2017/decoder.v
 FD:/Research Project_Spring 2017/decoder.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-!s108 1489838602.000000
+!s108 1490726398.000000
 !s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/decoder.v|
 !s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/decoder.v|
 !i113 1
-R8
-R7
+R3
+R4
 vinstMem
-R1
+!s110 1490726399
 !i10b 1
-!s100 <hK21f=kUAo4h=@MAR@]o1
-IPGDX[d9caf08H<N_M8j@H1
-R2
+!s100 [:kX46F7?E3^WG7k69jAb3
+ICHje9ca@SZ3MZ43UPz:890
+R1
 R0
-w1489440336
+w1490143446
 8D:/Research Project_Spring 2017/instMem.v
 FD:/Research Project_Spring 2017/instMem.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/instMem.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/instMem.v|
+!s108 1490726399.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/instMem.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/instMem.v|
 !i113 1
-R5
-R6
-R7
+R3
+R4
 ninst@mem
 vmemory
-R1
+!s110 1490726400
 !i10b 1
-!s100 5Z^Ud1_5IK;_>8=]]hNo;2
-Ic?[Eh@2:A]@OY_UgB0>k73
-R2
+!s100 YPlR0]3I9kU;^BCa8Qcea1
+IRJ6V1z2HlT=noF=RWCmP22
+R1
 R0
-w1489439573
+w1490143345
 8D:/Research Project_Spring 2017/memory.v
 FD:/Research Project_Spring 2017/memory.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/memory.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/memory.v|
+!s108 1490726400.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/memory.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/memory.v|
 !i113 1
-R5
-R6
-R7
+R3
+R4
 vmux
-R1
+!s110 1490726401
 !i10b 1
-!s100 4Hhj[XgS7Gz7=Rg80Eme51
-I:7VbiaBP`Q964`Pn5:^;e0
-R2
+!s100 cRaFH7;3kRW[W>1@oF;993
+I9F307ni2ZnWV<YNPWa1MA1
+R1
 R0
-w1485357709
+w1490143475
 8D:/Research Project_Spring 2017/mux.v
 FD:/Research Project_Spring 2017/mux.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/mux.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/mux.v|
+!s108 1490726401.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/mux.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/mux.v|
 !i113 1
-R5
-R6
-R7
+R3
+R4
 vpc
-R1
+!s110 1490726402
 !i10b 1
-!s100 z0GnW2cR^`W?;^cS>hPHN2
-IGYf8E?a44d0PIIGYJY>1_1
-R2
+!s100 H`^]O[_AQEFbeY1[;KYXC0
+IU<G16O>2>jSaMnk<QK8[21
+R1
 R0
-w1489691679
+w1490143538
 8D:/Research Project_Spring 2017/pc.v
 FD:/Research Project_Spring 2017/pc.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/pc.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/pc.v|
+!s108 1490726402.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/pc.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/pc.v|
 !i113 1
-R5
-R6
-R7
+R3
+R4
 vregisters
-R1
+!s110 1490726403
 !i10b 1
-!s100 VN75OEIHY<KWSUQbGF2oV3
-IDBFVj46C4c4T8:nYgLm2L3
-R2
+!s100 94R>nmla6VG3URL_R78Td1
+IT@YgVZU[TA_P@0??3Y_KD2
+R1
 R0
-w1489440316
+w1490726195
 8D:/Research Project_Spring 2017/registers.v
 FD:/Research Project_Spring 2017/registers.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 D:/Research Project_Spring 2017/constant.v|D:/Research Project_Spring 2017/registers.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Research Project_Spring 2017|D:/Research Project_Spring 2017/registers.v|
+!s108 1490726403.000000
+!s107 D:\Research Project_Spring 2017\constant.v|D:/Research Project_Spring 2017/registers.v|
+!s90 -reportprogress|300|-work|work|D:/Research Project_Spring 2017/registers.v|
 !i113 1
-R5
-R6
-R7
+R3
+R4

@@ -7,6 +7,7 @@ vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/constant.v}
 vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/controller.v}
+vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/cpu.v}
 vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/registers.v}
 vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/alu.v}
 vlog -vlog01compat -work work +incdir+D:/Research\ Project_Spring\ 2017 {D:/Research Project_Spring 2017/mux.v}

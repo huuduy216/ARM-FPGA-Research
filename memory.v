@@ -1,5 +1,7 @@
 `include "constant.v"
 module memory(memRead, memWrite,value,location,out,led1,led2,led3,led4);
+	
+	parameter mode = 0;//0 = direct map, 1 = set associative, 2 = fully associative
 	input memRead;
 	input memWrite;
 	input [31:0]value;
@@ -12,7 +14,7 @@ module memory(memRead, memWrite,value,location,out,led1,led2,led3,led4);
 	
 	reg[31:0]mem_array[0:255];
 	
-	always @ *
+	always @ (memRead or memWrite or value or location)
 	begin
 	if (memRead == 1)
 		out = mem_array[location];
