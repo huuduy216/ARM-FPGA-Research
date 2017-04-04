@@ -1,4 +1,4 @@
-module controller(reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,regWrite,opCode);
+module controller(opCode,reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,regWrite);
 	input [10:0] opCode;
 	output reg reg2Loc;
 	output reg branch;
@@ -9,7 +9,7 @@ module controller(reg2Loc,branch,memRead,memToReg,aluOp,memWrite,aluSrc,regWrite
 	output reg aluSrc;
 	output reg regWrite;
 	
-	always @ *
+	always @ (opCode)
 	case(opCode)
 		6'b000101:
 			begin 	

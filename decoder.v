@@ -9,7 +9,7 @@ module decoder(inst,opcode,segA,segB,segC,branchTarget);
 	output reg [9:0]segC;//9-10 bits
 	output reg [25:0]branchTarget;//19-25 bits address
 	
-	always@* begin
+	always@ (inst) begin
 	if(inst[31:21] == 11'b11111000000) //STORE
 	begin
 		opcode = inst[31:21]; //set opcode variable

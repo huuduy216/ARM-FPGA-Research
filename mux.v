@@ -6,7 +6,7 @@ module mux(dataA,dataB,select,dataOut);
 	input select;
 	output reg [`SIZE -1:0] dataOut;
 	
-	always @ *
+	always @ (dataA or dataB or select)
 	begin
 		if (select == 0)
 			dataOut = dataA;
